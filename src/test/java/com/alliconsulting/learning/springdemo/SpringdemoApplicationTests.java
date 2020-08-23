@@ -29,7 +29,7 @@ class SpringdemoApplicationTests {
 
 		Person search = new Person(UUID.fromString("d169c4a0-af64-11ea-b3de-0242ac130004"),"Asif");
 		int indexFound = someDB.indexOf(search);
-		Assert.isTrue(someDB.indexOf(search)>0);
+		Assert.isTrue(!(someDB.indexOf(search)>0));
 
 
 
