@@ -35,4 +35,9 @@ class SpringdemoApplicationTests {
 
 	}
 
+	@Test
+	void someTest1(){
+		Assert.isTrue(true);
+	}
+
 }
